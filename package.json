@@ -1,0 +1,30 @@
+{
+  "name": "notes-server",
+  "version": "1.0.0",
+  "description": "Notes Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --verboxe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meganamarshall/notes-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meganamarshall/notes-server/issues"
+  },
+  "homepage": "https://github.com/meganamarshall/notes-server#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14"
+  }
+}
