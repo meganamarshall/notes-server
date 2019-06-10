@@ -4,11 +4,17 @@
   "description": "Notes Server",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand --verboxe"
+    "test": "jest --runInBand --verbose",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meganamarshall/notes-server.git"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "author": "",
   "license": "ISC",
